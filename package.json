@@ -1,0 +1,15 @@
+{
+  "name": "perplexity-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "bun run src/main.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer": "^23.5.0"
+  }
+}
